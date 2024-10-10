@@ -1,3 +1,10 @@
+# Linux-IPC--Pipes
+Linux-IPC-Pipes
+
+Name: GURUMURTHY S
+
+Regno: 212223230066
+
 # Ex03-Linux IPC - Pipes
 
 # AIM:
@@ -20,7 +27,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```c
+```
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -75,16 +82,12 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
-
 ```
-
-
 ## OUTPUT
 ![368436572-bc22623e-085c-4ddb-a18d-d0f870a43aad](https://github.com/user-attachments/assets/40dd20bc-da36-4a1d-9766-45f07062b815)
 
-
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-```c
+```
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -96,9 +99,8 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 ```
-
-
 ## OUTPUT
+
 ![368436701-5f3b0f8d-afaf-4e88-97ae-fa9eccaec929](https://github.com/user-attachments/assets/337655e9-7d69-4488-af12-3f5d8653aa61)
 
 # RESULT:
